@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*_venv/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# YOLO weights and training results
+*.pt
+*.pth
+runs/
+
+# ROS2 build files
+build/
+install/
+log/
+
+# ROS2 recordings
+*.db3
+*.mcap
+*.bag
+
+# Local caches
+.cache/
+.DS_Store
+Thumbs.db
