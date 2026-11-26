@@ -164,7 +164,7 @@ C:\isaacsim\python.bat C:\IsaacProjects\my_application_V4_camera_writers_cmd_vel
 ```
 
 主程式需依實際檔案位置調整路徑，並確保所參考的 Isaac Sim 資產可正常存取。
-
+![image](https://github.com/Jason0126/jetbot-ros2-ai-navigation/blob/main/screenshot/Isaac%20Sim.png)
 ### 5.2 設定 WSL2 ROS2 環境
 
 ```bash
@@ -220,6 +220,18 @@ python3 ~/jetbot-ros2-ai-navigation/hmi/jetbot_flask_hmi_v5_yolo.py
 在 Windows 瀏覽器開啟：
 
 http://127.0.0.1:5000
+
+![image](https://github.com/Jason0126/jetbot-ros2-ai-navigation/blob/main/screenshot/HMI_%E6%95%B8%E6%93%9A.png)
+
+<p align="center">
+  <img src="https://github.com/Jason0126/jetbot-ros2-ai-navigation/blob/main/screenshot/HMI_%E5%9C%B0%E5%9C%96.png" width="48%" />
+  <img src="https://github.com/Jason0126/jetbot-ros2-ai-navigation/blob/main/screenshot/HMI_%E5%B0%8E%E8%88%AA.png" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/Jason0126/jetbot-ros2-ai-navigation/blob/main/screenshot/HMI_%E9%8F%A1%E9%A0%AD.png" width="48%" />
+  <img src="https://github.com/Jason0126/jetbot-ros2-ai-navigation/blob/main/screenshot/HMI_YOLO.png" width="48%" />
+</p>
 
 以上為已建立環境下的啟動指令。首次使用仍需要安裝 ROS2、SLAM Toolbox、Nav2、Flask、YOLO 及相關 Python 套件。
 
