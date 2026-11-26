@@ -109,7 +109,7 @@ Windows 11
 WSL2 Ubuntu / ROS2 Humble
 ┌─────────────────────────────────┐
 │ ROS2 Topics                     │
-│ /odom /scan /tf /clock           │
+│ /odom /scan /tf /clock          │
 │ /camera/image_raw /cmd_vel      │
 └───────────────┬─────────────────┘
                 │
@@ -123,7 +123,7 @@ WSL2 Ubuntu / ROS2 Humble
 │ Flask HMI                       │
 │                                 │
 │ 數據監控 / SLAM 地圖 / YOLO 相機 │
-│ 單目標導航控制                  │
+│ 單目標導航控制                   │
 └─────────────────────────────────┘
 ```
 
