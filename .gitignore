@@ -31,3 +31,40 @@ log/
 .cache/
 .DS_Store
 Thumbs.db
+
+# ROS 2 Colcon Workspace
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Python virtual environment
+.venv/
+venv/
+jetbot_yolo_venv/
+
+# AI model weights and outputs
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
